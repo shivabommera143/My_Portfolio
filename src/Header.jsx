@@ -2,8 +2,8 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
 import profile from './data/profile'
 import { TypeAnimation } from 'react-type-animation'
-import bg_image from './assets/bg_image.png'
-import image1 from './assets/developer_illustration.png'
+import bg_image from './assets/bg_image.webp'
+import image1 from './assets/developer_illustration.webp'
 
 
 const socialIcons = {

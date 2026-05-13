@@ -13,12 +13,12 @@ import projects from './data/projects'
 import skills from './data/skills'
 import './index.css'
 import Navig from './Navig'
-import aboutBg from './assets/about_bg.png'
-import projectsBg from './assets/projects_bg.png'
-import skillsBg from './assets/skills_bg.png'
-import experienceBg from './assets/experience_bg.png'
-import achievementsBg from './assets/achievements_bg.png'
-import contactBg from './assets/contact_bg.png'
+import aboutBg from './assets/about_bg.webp'
+import projectsBg from './assets/projects_bg.webp'
+import skillsBg from './assets/skills_bg.webp'
+import experienceBg from './assets/experience_bg.webp'
+import achievementsBg from './assets/achievements_bg.webp'
+import contactBg from './assets/contact_bg.webp'
 
 function App() {
   return (
