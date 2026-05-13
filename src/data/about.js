@@ -1,0 +1,4 @@
+const about =
+  "I'm Shiva Bommera, a B.Tech student specializing in Artificial Intelligence and Machine Learning, with a strong interest in full-stack development, problem solving, and practical technology solutions. I enjoy learning by building projects that combine clean design, scalable architecture, and real-world use.\n\nMy journey so far has focused on strengthening my foundations in Data Structures and Algorithms while exploring modern web technologies and AI/ML systems. From developing projects and participating in coding practice to presenting research work, I keep improving both my technical depth and problem-solving ability.\n\nCurrently, I'm focused on building full-stack applications, improving my development workflow, and turning ideas into meaningful products. I'm especially interested in projects that combine software engineering, AI, and user-focused problem solving."
+
+export default about
