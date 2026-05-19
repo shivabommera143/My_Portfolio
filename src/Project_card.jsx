@@ -37,6 +37,17 @@ function ProjectCard(props) {
           <FaGithub className="text-sm" />
           GitHub
         </a>
+        {props.liveWebsite && props.liveWebsite !== '#' && (
+          <a
+            href={props.liveWebsite}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-md border border-emerald-400/70 px-3 py-2 text-xs font-bold text-emerald-100 transition-all duration-300 ease-in-out hover:bg-emerald-400 hover:text-slate-950 hover:shadow-lg hover:shadow-emerald-500/30"
+          >
+            <FaExternalLinkAlt className="text-xs" />
+            Live
+          </a>
+        )}
         {props.demo && props.demo !== '#' && (
           <a
             href={props.demo}

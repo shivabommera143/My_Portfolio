@@ -79,13 +79,14 @@ function App() {
         <p className="p-4 text-center text-cyan-300"> - MY WORK - </p>
         <h2 className="pb-5 text-center text-3xl font-bold text-white">Projects I've built with passion</h2>
 
-        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-full gap-6 md:grid-cols-2 lg:grid-cols-5" style={{ padding: '0 2rem' }}>
           {projects.map((project, index) => (
             <ProjectCard
               key={project.title}
               title={project.title}
               description={project.description}
               link={project.link}
+              liveWebsite={project.liveWebsite}
               demo={project.demo}
               category={project.category}
               techStack={project.techStack}

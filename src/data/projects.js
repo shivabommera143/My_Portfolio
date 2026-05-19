@@ -1,34 +1,44 @@
 const projects = [
   {
-    title: 'Zara Data Analysis',
+    title: 'CodePeek API',
     description:
-      'Analyzed sales data for pricing and performance insights.',
-    link: 'https://github.com/shivabommera143/python_ml_practice/tree/main/data/data_analysis',
-    category: "Data Analysis",
-    techStack: ['Python', 'Pandas', 'Power BI'],
+      'Open-source API for extracting and analyzing GitHub repository code structure and insights.',
+    link: 'https://github.com/shivabommera143/codepeek-api',
+    liveWebsite: 'https://codepeek-api.vercel.app/',
+    category: 'Open Source',
+    techStack: ['Python', 'FastAPI', 'GitHub API', 'REST API'],
   },
   {
     title: 'Escanova AI Support Agent',
     description:
-      'Built an AI workflow for support escalation.',
+      'Built an AI workflow for intelligent support escalation and automation.',
     link: 'https://github.com/shivabommera143/escanova',
-    category: "Software Development",
+    category: 'AI & Automation',
     techStack: ['AI Workflow', 'Automation'],
   },
   {
     title: 'Microplastics Detection IoT',
     description:
-      'Created an IoT prototype for microplastics detection.',
+      'Created an IoT-based prototype for detecting microplastics using optical sensing.',
     link: 'https://github.com/shivabommera143/Microplastic_detection',
-    category: "IoT Research",
+    category: 'IoT Research',
     techStack: ['Arduino', 'IoT', 'Research'],
+  },
+  {
+    title: 'Zara Data Analysis',
+    description:
+      'Analyzed retail sales data to uncover pricing and performance insights.',
+    link: 'https://github.com/shivabommera143/python_ml_practice/tree/main/data/data_analysis',
+    category: 'Data Analysis',
+    techStack: ['Python', 'Pandas', 'Power BI'],
   },
   {
     title: 'Personal Portfolio Website',
     description:
-      'Portfolio built with React, Tailwind, and subtle motion.',
+      'Responsive portfolio website built with React, Tailwind CSS, and Vite.',
     link: 'https://github.com/shivabommera143',
-    category: "Frontend",
+    liveWebsite: 'https://shivabommeraportfolio.vercel.app/',
+    category: 'Frontend',
     techStack: ['React', 'Tailwind CSS', 'Vite'],
   },
 ]
