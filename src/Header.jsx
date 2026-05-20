@@ -47,7 +47,7 @@ function Header() {
             </a>
 
             <a
-              href="/SHIVA_RESUME.pdf?v=2"
+              href="/shiva_bommera_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Shiva_Bommera_resume.pdf"
